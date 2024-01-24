@@ -624,6 +624,7 @@ section {
 .btn-con {
   display: flex;
   align-self: flex-start;
+  margin: 5px;
 }
 
 .main-btn {
@@ -697,6 +698,9 @@ section {
 }
 
 @media screen and (max-width: 600px) {
+  /* .btn-con {
+    display: block;
+  } */
   header {
     padding: 0 !important;
   }
@@ -861,6 +865,7 @@ section {
   }
 }
 @media screen and (max-width: 1250px) {
+
   .blogs {
     grid-template-columns: repeat(2, 1fr);
     margin-top: 6rem;
