@@ -467,6 +467,19 @@ section {
 .portfolios .portfolio-item .hover-items .icons .icon:hover i {
   color: var(--color-primary);
 }
+.portfolios .portfolio-item .hover-items .icons .icon svg {
+  font-size: 1.5rem;
+  color: var(--color-white);
+  margin: 0 1rem;
+}
+.portfolios .portfolio-item .hover-items .icons .icon:hover {
+  background-color: var(--color-white);
+}
+.portfolios .portfolio-item .hover-items .icons .icon:hover  {
+  color: var(--color-primary);
+}
+
+
 
 .portfolio-item:hover .hover-items {
   opacity: 1;
