@@ -475,11 +475,9 @@ section {
 .portfolios .portfolio-item .hover-items .icons .icon:hover {
   background-color: var(--color-white);
 }
-.portfolios .portfolio-item .hover-items .icons .icon:hover  {
+.portfolios .portfolio-item .hover-items .icons .icon:hover {
   color: var(--color-primary);
 }
-
-
 
 .portfolio-item:hover .hover-items {
   opacity: 1;
@@ -878,7 +876,6 @@ section {
   }
 }
 @media screen and (max-width: 1250px) {
-
   .blogs {
     grid-template-columns: repeat(2, 1fr);
     margin-top: 6rem;
